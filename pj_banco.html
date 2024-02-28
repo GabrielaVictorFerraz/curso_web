@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-<link rel="stylesheet" type="text/css" href="C:\Users\Windows\Desktop\aulas_js\pj_banco_css.css">
-<title>Banco JS</title>
-</head>
+    <head>
+     <title>Banco JS</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="C:\Users\Windows\Desktop\aulas_js\pj_banco_css.css">
+
+     <script lang="javascript">
+        var nome = prompt("Digite seu nome:");
+        var senha = prompt("Digite sua senha:");
+
+        if ((nome == "Gabriela" && senha == "12345678") || (nome == "João" || senha == "87654321")) {
+            alert("Bem-vindo ao Banco JS")
+        }
+        
+        else {
+            alert("Usuário ou senha incorreta, digite novamente:")
+            while (nome != "Gabriela" && senha != "12345678") 
+            var nome = prompt("Digite seu nome:");
+            var senha = prompt("Digite sua senha:");
+        }
+     </script>
+
+    </head>
 <body>
  
     <div id="div-main">
@@ -14,17 +32,32 @@
 
 
         <div id="div-inf">
-           
-<href="https://img.freepik.com/fotos-gratis/emocoes-positivas-close-up-de-jovem-bonito-homem-de-pele-escura-com-penteado-afro-em-camiseta-branca-e-camisa-vermelha-sorrindo-com-dentes-conversando-com-um-amigo-no-smartphone_176420-13009.jpg">
-        </div>
+            <table>    
+                <td>
+                    <div><img src="https://img.freepik.com/fotos-gratis/emocoes-positivas-close-up-de-jovem-bonito-homem-de-pele-escura-com-penteado-afro-em-camiseta-branca-e-camisa-vermelha-sorrindo-com-dentes-conversando-com-um-amigo-no-smartphone_176420-13009.jpg"/>   </div>
+                </td>
 
+                <td>
+                    <div>
+                        <title>Com o Banco JS, eu</title>
+                        <p>DESENROLO</p>
+                        <p>O programa continua!</p>
+                    </div>
+                </td>
+    
+                
+                <td>
+                    <div>
+                        <p>Coloque as contas</p>
+                        <p>Em dia</p>
+                        <p>Com desconto de até</p>
+                        <p>96%</p>
+                    </div>
+                </td>
+
+            </table>
+        </div>
     </div>
 </body>
-
-
-
-
-
-
 
 </html>
