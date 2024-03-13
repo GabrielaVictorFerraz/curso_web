@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" link href="C:\Users\Windows\Desktop\aulas_js\aula3-js\aula-js.css">
+    <title>Functions JS</title>
+    <script>
+        
+    function soma(){//declaração da função
+        var n1 = parseInt(prompt("Digite um valor:"));
+        var n2 = parseInt(prompt("Digite outro valor:"));
+        alert(n1+n2);//O que a funcao ira fazer
+    }
+
+    function subtracao(){//declaração da função
+        var n1 = parseInt(prompt("Digite um valor:"));
+        var n2 = parseInt(prompt("Digite outro valor:"));
+        alert(n1-n2);//O que a funcao ira fazer
+    }
+
+    function divisao(){//declaração da função
+        var n1 = parseInt(prompt("Digite um valor:"));
+        var n2 = parseInt(prompt("Digite outro valor:"));
+        alert(n1/n2);//O que a funcao ira fazer
+    }
+
+    function multiplicacao(){//declaração da função
+        var n1 = parseInt(prompt("Digite um valor:"));
+        var n2 = parseInt(prompt("Digite outro valor:"));
+        var soma = n1+n2
+        document.write("<h1> + soma + </h1>");
+        //alert(n1*n2);//O que a funcao ira fazer
+    }
+
+    function escreva(){//declaração da função
+        document.write("<h1>Teste<h1>");
+    }
+
+    const name = document.querySelector(".name") // paramos aqui
+
+    function mudarCor(){
+
+    }
+    //Soma()//Chamada de função
+
+    </script>
+</head>
+<body>
+
+    <div>
+    <h1 class="name">Titulo</h1>
+    <button onclick="mudarCor()">Color></button>
+    <button onclick="soma()">Soma</button>
+    <button onclick="subtracao()">Subtração</button>
+    <button onclick="divisao()">Divisão</button>
+    <button onclick="multiplicacao()">Multiplicação</button>
+    <button onclick="escreva()">Escreva</button>
+    <input type="checkbox">
+    <input type="time">
+    </div>
+
+</body>
+</html>
